@@ -9,8 +9,8 @@ def process():
     points_earned = []
     points_spent = []
 
-    ## Assuming 'data.csv' is the file name, we read the file
-    with open('data.csv') as data_file:
+    ## Given 'transactions.csv' file is present in the same directory as the program
+    with open('transactions.csv') as data_file:
         data_reader = csv.reader(data_file, delimiter=",")
         line_count = 0
 
